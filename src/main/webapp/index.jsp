@@ -20,6 +20,7 @@
         瀏覽器語系:<%=request.getHeader("Accept-Language") %>
         <h1>會員登入系統:session id:<%=session.getId() %></h1>
         <a href="login.jsp">會員登入</a>    
+        <h2>版本2</h2>
       
   
     </body>

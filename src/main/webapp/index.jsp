@@ -15,7 +15,7 @@
                 session=request.getSession();
             %>
     <body>
-        <h5>使用者資訊</h5>
+        <h5>使用者資訊123</h5>
         瀏覽器版本:<%=request.getHeader("User-Agent") %>
         瀏覽器語系:<%=request.getHeader("Accept-Language") %>
         <h1>會員登入系統:session id:<%=session.getId() %></h1>
